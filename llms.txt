@@ -1,0 +1,37 @@
+# Eden 8 Foundation
+
+> A private operating foundation building the infrastructure for equity in STEAM education.
+
+The Eden 8 Foundation develops educational programs that make STEAM (Science, Technology, Engineering, Arts, and Math) fields accessible and relevant to underserved children before they decide those fields aren't for them. The foundation targets Title 1 schools in Monterey County and Los Angeles County, California.
+
+## About
+
+- **Type:** Private operating foundation (not a public charity; not accepting unsolicited grant proposals)
+- **Focus:** STEAM education equity for K–5 students in Title 1 schools
+- **Flagship program:** Mighty Tails — an animated educational series using aviation and aerospace as the primary STEAM on-ramp
+- **Geographic focus:** Monterey County (East Salinas) and Los Angeles County, California
+- **Philanthropy:** Separate from the Tuchen Family Charitable Fund
+
+## Mighty Tails
+
+Mighty Tails is the foundation's flagship program: an animated series for K–5 students that uses aviation, drones, and aerospace careers to teach STEAM concepts in an accessible, culturally relevant way. The series is standards-aligned and available free on YouTube. Curriculum guides and educator resources are at mightytails.education.
+
+- Watch: https://www.youtube.com/@TheEden8Foundation
+- Educator resources: https://www.mightytails.education
+
+## Why Aviation
+
+Aviation and aerospace are everywhere yet invisible to most Title 1 students. The industry faces urgent workforce shortages. The population entering aviation remains narrow — not because of aptitude, but because of exposure. Eden 8 works to correct that, starting at the age when curiosity is boundless and identity is still forming.
+
+## Contact
+
+- Media & Press: press@eden8foundation.org
+- Educators & Administrators: education@eden8foundation.org
+- Strategic Partners: partners@eden8foundation.org
+
+## Site Pages
+
+- [Home](https://j0nmichal.github.io/Eden8-dev-site/): Foundation overview, mission, Mighty Tails spotlight
+- [Education](https://j0nmichal.github.io/Eden8-dev-site/education.html): Program philosophy, curriculum details, aviation workforce context
+- [Community](https://j0nmichal.github.io/Eden8-dev-site/community.html): Equity argument, geographic focus, Title 1 deployment
+- [Contact](https://j0nmichal.github.io/Eden8-dev-site/contact.html): Pathways for media, educators, and partners
