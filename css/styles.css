@@ -590,7 +590,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
    ============================================================ */
 .mission {
   padding-block: var(--section-gap);
-  background: var(--bg-light);
+  background: #FDF0F0;
   border-top: 1px solid var(--rule-light);
   border-bottom: 1px solid var(--rule-light);
 }
