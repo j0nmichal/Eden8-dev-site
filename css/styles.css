@@ -920,7 +920,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .page-hero {
   padding-block-start: clamp(8rem, 14vw, 12rem);
   padding-block-end: clamp(4rem, 7vw, 6rem);
-  border-bottom: 1px solid var(--rule);
+  background: #0E1A3D;
+  border-bottom: 1px solid rgba(244, 167, 195, 0.2);
   position: relative;
   overflow: hidden;
 }
@@ -930,7 +931,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent-eden), transparent);
+  background: linear-gradient(90deg, transparent, #F4A7C3, transparent);
 }
 
 .page-hero__label {
@@ -945,7 +946,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: block;
   width: 1.5rem;
   height: 1px;
-  background: var(--accent-warm);
+  background: #F4A7C3;
+}
+
+.page-hero__label .label--accent {
+  color: #F4A7C3;
+  border-color: rgba(244, 167, 195, 0.3);
 }
 
 .page-hero h1 {
@@ -962,7 +968,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .page-hero h1 em {
   font-style: italic;
-  color: var(--accent-eden);
+  color: #F4A7C3;
 }
 
 .page-hero__sub {
@@ -983,10 +989,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   inset: 0;
   background: linear-gradient(
     105deg,
-    rgba(251,248,243,0.92) 0%,
-    rgba(251,248,243,0.80) 35%,
-    rgba(251,248,243,0.45) 65%,
-    rgba(251,248,243,0.10) 100%
+    rgba(14,26,61,0.92) 0%,
+    rgba(14,26,61,0.75) 40%,
+    rgba(14,26,61,0.40) 70%,
+    rgba(14,26,61,0.10) 100%
   );
   z-index: 0;
 }
