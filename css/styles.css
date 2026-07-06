@@ -619,9 +619,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 
 .mission__logo {
-  width: clamp(120px, 15vw, 180px);
+  width: clamp(60px, 7.5vw, 90px);
   height: auto;
   display: block;
+  margin-inline: auto;
 }
 
 .mission__body h2 {
