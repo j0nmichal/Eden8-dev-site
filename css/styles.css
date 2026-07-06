@@ -649,7 +649,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
    ============================================================ */
 .spotlight {
   padding-block: var(--section-gap);
-  background: #0D2B1E;
+  background: #0E1A3D;
   border-top: 1px solid rgba(255,255,255,0.06);
   border-bottom: 1px solid rgba(255,255,255,0.06);
 }
