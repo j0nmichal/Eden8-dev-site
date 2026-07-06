@@ -89,7 +89,7 @@
 [data-theme="light"] .hero__bg-overlay {
   background:
     linear-gradient(
-      100deg,
+      -100deg,
       rgba(251, 248, 243, 0.92) 0%,
       rgba(251, 248, 243, 0.75) 30%,
       rgba(251, 248, 243, 0.3) 55%,
@@ -454,8 +454,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 30% 30%;
-  /* Keep full color warmth — the classroom gold is an asset */
+  object-position: 40% 25%;
   filter: brightness(0.88);
 }
 
@@ -463,9 +462,9 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: absolute;
   inset: 0;
   background:
-    /* Left band: dark enough for white text */
+    /* Right band: dark enough for white text */
     linear-gradient(
-      100deg,
+      -100deg,
       rgba(10, 12, 20, 0.92) 0%,
       rgba(10, 12, 20, 0.75) 30%,
       rgba(10, 12, 20, 0.3) 55%,
@@ -495,6 +494,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: relative;
   z-index: 2;
   max-width: 660px;
+  margin-inline-start: auto;
+  text-align: right;
 }
 
 .hero__scroll {
@@ -506,6 +507,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: flex;
   align-items: center;
   gap: 1rem;
+  justify-content: flex-end;
 }
 
 .hero__eyebrow::before {
@@ -545,6 +547,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .hero__scroll {
