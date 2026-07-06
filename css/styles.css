@@ -618,6 +618,12 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   user-select: none;
 }
 
+.mission__logo {
+  width: clamp(120px, 15vw, 180px);
+  height: auto;
+  display: block;
+}
+
 .mission__body h2 {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 3.5vw, 3rem);
