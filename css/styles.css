@@ -121,17 +121,18 @@
 [data-theme="light"] .person-card__name  { color: var(--text-dark); }
 [data-theme="light"] .person-card__bio   { color: var(--text-dark-sub); }
 
+/* Footer stays dark regardless of theme */
 [data-theme="light"] .footer {
-  background: var(--bg-secondary);
-  border-color: var(--rule);
+  background: #0D0F16;
+  border-top-color: rgba(255,255,255,0.06);
 }
-
-[data-theme="light"] .footer__brand h3 { color: var(--text-dark); }
-[data-theme="light"] .footer__brand p  { color: var(--text-dark-sub); }
-[data-theme="light"] .footer__nav h4   { color: var(--text-muted); }
-[data-theme="light"] .footer__nav a    { color: var(--text-dark-sub); }
+[data-theme="light"] .footer__brand h3 { color: #E6E2D8; }
+[data-theme="light"] .footer__brand p  { color: #8A877F; }
+[data-theme="light"] .footer__nav h4   { color: #8A877F; }
+[data-theme="light"] .footer__nav a    { color: #8A877F; }
+[data-theme="light"] .footer__social a { border-color: rgba(255,255,255,0.12); color: #8A877F; }
 [data-theme="light"] .footer__legal,
-[data-theme="light"] .footer__copy     { color: var(--text-muted); }
+[data-theme="light"] .footer__copy     { color: #8A877F; }
 
 [data-theme="light"] .stat-card {
   background: #fff;
@@ -958,6 +959,26 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   font-size: 1.05rem;
   line-height: 1.65;
 }
+
+.page-hero--photo {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.page-hero--photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(251,248,243,0.92) 0%,
+    rgba(251,248,243,0.80) 35%,
+    rgba(251,248,243,0.45) 65%,
+    rgba(251,248,243,0.10) 100%
+  );
+  z-index: 0;
+}
+.page-hero--photo .container { position: relative; z-index: 1; }
 
 /* ============================================================
    SECTION — generic
