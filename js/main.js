@@ -71,7 +71,7 @@ if (fadeEls.length && 'IntersectionObserver' in window) {
   let W, H, particles, mouse = { x: -1000, y: -1000 };
   const COUNT = 90;
   const CONNECTION_DIST = 140;
-  const MOUSE_INFLUENCE = 180;
+  const MOUSE_INFLUENCE = 300;
 
   function resize() {
     W = canvas.width = canvas.offsetWidth;
@@ -93,13 +93,13 @@ if (fadeEls.length && 'IntersectionObserver' in window) {
     const dy = mouse.y - this.y;
     const dist = Math.sqrt(dx * dx + dy * dy);
     if (dist < MOUSE_INFLUENCE) {
-      const force = (MOUSE_INFLUENCE - dist) / MOUSE_INFLUENCE * 0.0008;
+      const force = (MOUSE_INFLUENCE - dist) / MOUSE_INFLUENCE * 0.004;
       this.vx += dx * force;
       this.vy += dy * force;
     }
     /* speed cap */
     const speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy);
-    if (speed > 0.6) { this.vx *= 0.6 / speed; this.vy *= 0.6 / speed; }
+    if (speed > 2.5) { this.vx *= 2.5 / speed; this.vy *= 2.5 / speed; }
 
     this.x += this.vx;
     this.y += this.vy;
