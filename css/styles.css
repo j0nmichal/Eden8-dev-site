@@ -79,7 +79,7 @@
 
 [data-theme="light"] .nav__logo,
 [data-theme="light"] .nav__links a {
-  color: var(--text-primary);
+  color: var(--text-dark);
 }
 
 [data-theme="light"] .nav__toggle span {
