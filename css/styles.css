@@ -337,7 +337,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: absolute;
   bottom: -3px; left: 0; right: 0;
   height: 1px;
-  background: var(--accent-warm);
+  background: #F4A7C3;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s var(--ease-out);
