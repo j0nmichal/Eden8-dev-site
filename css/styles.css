@@ -605,6 +605,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .mission__label-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
