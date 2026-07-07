@@ -185,7 +185,7 @@ body {
   background: var(--bg-primary);
   color: var(--text-primary);
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.1vw, 1.125rem);
+  font-size: clamp(1rem, 1.05rem + 0.1vw, 1.125rem);
   line-height: 1.7;
   overflow-x: hidden;
 }
