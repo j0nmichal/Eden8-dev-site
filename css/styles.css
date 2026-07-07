@@ -52,10 +52,10 @@
 
 /* --- Light theme overrides --- */
 [data-theme="light"] {
-  --bg-primary:     #FBF8F3;
-  --bg-secondary:   #F4EFE6;
-  --bg-surface:     #EDE6D8;
-  --bg-surface-alt: #E2D9CC;
+  --bg-primary:     #FFFFFF;
+  --bg-secondary:   #F5F5F5;
+  --bg-surface:     #EFEFEF;
+  --bg-surface-alt: #E5E5E5;
 
   --bg-light:       #FFFFFF;
   --bg-light-alt:   #FBF8F3;
