@@ -73,6 +73,10 @@
   --rule-warm:      rgba(224, 139, 42, 0.3);
 }
 
+[data-theme="light"] .section--alt {
+  background: #0E1A3D;
+}
+
 [data-theme="light"] .nav.scrolled {
   background: rgba(251, 248, 243, 0.94);
 }
@@ -956,7 +960,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .page-hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4.5vw, 4.25rem);
+  font-size: clamp(1.6rem, 3.2vw, 3rem);
   font-weight: 400;
   line-height: 1.05;
   letter-spacing: -0.02em;
