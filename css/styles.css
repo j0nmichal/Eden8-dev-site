@@ -77,6 +77,17 @@
   background: #0E1A3D;
 }
 
+[data-theme="light"] .section--alt h2,
+[data-theme="light"] .section--alt h3 {
+  color: #F2ECE0;
+}
+
+[data-theme="light"] .section--alt p,
+[data-theme="light"] .section--alt .lead,
+[data-theme="light"] .section--alt li {
+  color: rgba(242, 236, 224, 0.8);
+}
+
 [data-theme="light"] .nav.scrolled {
   background: rgba(251, 248, 243, 0.94);
 }
