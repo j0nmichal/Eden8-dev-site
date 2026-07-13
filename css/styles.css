@@ -1586,7 +1586,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 @media (max-width: 480px) {
   .people-grid { grid-template-columns: 1fr; }
-  .stats__grid { grid-template-columns: 1fr 1fr; }
+  .stats__grid { grid-template-columns: 1fr; }
   .footer__bottom { flex-direction: column; }
   .spotlight__ctas { flex-direction: column; }
   .hero__actions { flex-direction: column; }
