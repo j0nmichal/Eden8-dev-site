@@ -4,7 +4,7 @@
 (function initTheme() {
   const root = document.documentElement;
   const btn  = document.getElementById('theme-toggle');
-  const saved = localStorage.getItem('eden8-theme') || 'dark';
+  const saved = localStorage.getItem('eden8-theme') || 'light';
 
   root.setAttribute('data-theme', saved);
 
