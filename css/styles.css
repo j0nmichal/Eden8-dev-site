@@ -594,7 +594,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
    ============================================================ */
 .mission {
   padding-block: var(--section-gap);
-  background: #FDF0F0;
+  background: #FBF8F3;
   border-top: 1px solid var(--rule-light);
   border-bottom: 1px solid var(--rule-light);
 }
