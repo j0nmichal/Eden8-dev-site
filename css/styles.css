@@ -175,7 +175,7 @@
   color: var(--text-dark-sub);
 }
 
-[data-theme="light"] .page-hero h1 { color: var(--text-cream); }
+[data-theme="light"] .page-hero h1 { color: #F2ECE0; }
 [data-theme="light"] .page-hero__sub { color: rgba(242, 236, 224, 0.8); }
 [data-theme="light"] .page-hero::before {
   background: linear-gradient(90deg, transparent, var(--accent-eden), transparent);
