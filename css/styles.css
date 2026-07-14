@@ -75,17 +75,15 @@
 
 [data-theme="light"] .section--alt {
   background: #0E1A3D;
-}
-
-[data-theme="light"] .section--alt h2,
-[data-theme="light"] .section--alt h3 {
-  color: #F2ECE0;
-}
-
-[data-theme="light"] .section--alt p,
-[data-theme="light"] .section--alt .lead,
-[data-theme="light"] .section--alt li {
-  color: rgba(242, 236, 224, 0.8);
+  /* Re-scope all text tokens to dark-theme values so descendant elements render correctly on this dark background */
+  --text-cream:     #F2ECE0;
+  --text-primary:   #F2ECE0;
+  --text-secondary: rgba(242, 236, 224, 0.75);
+  --text-muted:     rgba(242, 236, 224, 0.5);
+  --text-dark:      #F2ECE0;
+  --text-dark-sub:  rgba(242, 236, 224, 0.75);
+  --bg-primary:     rgba(255, 255, 255, 0.06);
+  --rule:           rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="light"] .nav.scrolled {
