@@ -101,6 +101,12 @@
 
 [data-theme="light"] .nav__logo,
 [data-theme="light"] .nav__links a {
+  color: var(--text-dark);
+}
+
+/* Interior pages have dark navy heroes — flip nav to cream */
+[data-theme="light"] body.dark-hero .nav__logo,
+[data-theme="light"] body.dark-hero .nav__links a {
   color: #F2ECE0;
 }
 
