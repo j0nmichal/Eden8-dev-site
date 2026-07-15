@@ -113,13 +113,13 @@
   color: rgba(242, 236, 224, 0.55);
 }
 
-/* Scrolled nav has dark backdrop on all pages — flip to cream */
+/* Scrolled nav has cream background — use dark text */
 [data-theme="light"] .nav.scrolled .nav__logo,
 [data-theme="light"] .nav.scrolled .nav__links a {
-  color: #F2ECE0;
+  color: var(--text-dark);
 }
 [data-theme="light"] .nav.scrolled .nav__logo span {
-  color: rgba(242, 236, 224, 0.55);
+  color: var(--accent-eden);
 }
 
 [data-theme="light"] .nav__toggle span {
