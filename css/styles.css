@@ -109,6 +109,18 @@
 [data-theme="light"] body.dark-hero .nav__links a {
   color: #F2ECE0;
 }
+[data-theme="light"] body.dark-hero .nav__logo span {
+  color: rgba(242, 236, 224, 0.55);
+}
+
+/* Scrolled nav has dark backdrop on all pages — flip to cream */
+[data-theme="light"] .nav.scrolled .nav__logo,
+[data-theme="light"] .nav.scrolled .nav__links a {
+  color: #F2ECE0;
+}
+[data-theme="light"] .nav.scrolled .nav__logo span {
+  color: rgba(242, 236, 224, 0.55);
+}
 
 [data-theme="light"] .nav__toggle span {
   background: var(--text-primary);
