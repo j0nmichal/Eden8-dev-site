@@ -1534,7 +1534,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   transition: color 0.2s;
 }
 
-.footer__nav a:hover { color: var(--text-primary); }
+.footer__nav a:hover { color: #F4A7C3; }
 
 .footer__bottom {
   border-top: 1px solid var(--rule);
