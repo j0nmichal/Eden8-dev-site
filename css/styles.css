@@ -465,17 +465,16 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: linear-gradient(135deg, #FBF8F3 0%, #F4EFE6 60%, #EDE4D4 100%);
+  background-image: url('../assets/images/HomeHero.png');
+  background-size: cover;
+  background-position: center 20%;
 }
 
 .hero__bg-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to right,
-    rgba(251, 248, 243, 0.0) 0%,
-    rgba(251, 248, 243, 0.3) 100%
-  );
+  background:
+    linear-gradient(to bottom, rgba(8,15,34,0.3) 0%, rgba(8,15,34,0.0) 30%, rgba(8,15,34,0.7) 60%, rgba(8,15,34,0.95) 100%);
 }
 
 #hero-canvas {
@@ -485,8 +484,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   height: 100%;
   pointer-events: none;
   z-index: 1;
-  mix-blend-mode: multiply;
-  opacity: 0.15;
+  mix-blend-mode: screen;
+  opacity: 0.4;
 }
 
 .hero__content {
@@ -521,7 +520,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   line-height: 1.1;
   letter-spacing: -0.02em;
   margin-block-end: 1.25rem;
-  color: var(--text-dark);
+  color: var(--text-cream);
+  text-shadow: 0 2px 20px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9);
 }
 
 .hero__headline em {
@@ -531,10 +531,11 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .hero__mission {
   font-size: clamp(1.15rem, 1.7vw, 1.45rem);
-  color: var(--text-dark-sub);
+  color: rgba(242, 236, 224, 0.85);
   max-width: 520px;
   line-height: 1.65;
   margin-block-end: 2.5rem;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.9), 0 2px 30px rgba(0,0,0,0.7);
 }
 
 .hero__actions {
