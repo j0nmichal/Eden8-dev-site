@@ -126,26 +126,7 @@
   background: var(--text-primary);
 }
 
-[data-theme="light"] .hero__bg-overlay {
-  background:
-    linear-gradient(
-      100deg,
-      rgba(251, 248, 243, 0.92) 0%,
-      rgba(251, 248, 243, 0.75) 30%,
-      rgba(251, 248, 243, 0.3) 55%,
-      rgba(251, 248, 243, 0.0) 100%
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(251, 248, 243, 0.55) 0%,
-      transparent 18%
-    ),
-    linear-gradient(
-      to top,
-      rgba(251, 248, 243, 0.5) 0%,
-      transparent 35%
-    );
-}
+/* No photo — light theme hero uses same navy gradient, no cream wash */
 
 [data-theme="light"] .hero__headline,
 [data-theme="light"] .hero__mission {
@@ -479,44 +460,22 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   overflow: hidden;
 }
 
-/* --- Photo background --- */
+/* --- Hero background --- */
 .hero__bg {
   position: absolute;
   inset: 0;
   z-index: 0;
-}
-
-.hero__bg-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 60% 25%;
-  filter: brightness(0.88);
-  transform: scaleX(-1);
+  background: radial-gradient(ellipse at 65% 40%, #1a2d5a 0%, #0E1A3D 55%, #080f22 100%);
 }
 
 .hero__bg-overlay {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(
-      100deg,
-      rgba(10, 12, 20, 0.72) 0%,
-      rgba(10, 12, 20, 0.52) 28%,
-      rgba(10, 12, 20, 0.18) 55%,
-      rgba(10, 12, 20, 0.0) 100%
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(10, 12, 20, 0.55) 0%,
-      rgba(10, 12, 20, 0.15) 15%,
-      transparent 30%
-    ),
-    linear-gradient(
-      to top,
-      rgba(10, 12, 20, 0.45) 0%,
-      transparent 40%
-    );
+  background: linear-gradient(
+    to top,
+    rgba(8, 15, 34, 0.6) 0%,
+    transparent 50%
+  );
 }
 
 #hero-canvas {
