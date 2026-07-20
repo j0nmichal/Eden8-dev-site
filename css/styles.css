@@ -520,7 +520,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   line-height: 1.1;
   letter-spacing: -0.02em;
   margin-block-end: 1.25rem;
-  color: var(--text-cream);
+  color: #ffffff;
   text-shadow: 0 2px 20px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9);
 }
 
@@ -531,7 +531,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 
 .hero__mission {
   font-size: clamp(1.15rem, 1.7vw, 1.45rem);
-  color: rgba(242, 236, 224, 0.85);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 520px;
   line-height: 1.65;
   margin-block-end: 2.5rem;
