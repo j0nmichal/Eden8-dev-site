@@ -126,13 +126,6 @@
   background: var(--text-primary);
 }
 
-/* No photo — light theme hero uses same navy gradient, no cream wash */
-
-[data-theme="light"] .hero__headline,
-[data-theme="light"] .hero__mission {
-  color: #1A1C26;
-  text-shadow: 0 1px 20px rgba(255,255,255,0.4);
-}
 
 [data-theme="light"] .mission__body h2 { color: var(--text-dark); }
 [data-theme="light"] .mission__body p  { color: var(--text-dark-sub); }
